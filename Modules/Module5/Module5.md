@@ -81,9 +81,9 @@ print(f"Computer selected: {computerChoice}")
 Give a python example for each logic operator in the module image.
 
  - Answers:
-   - OR:
-   - AND: 
-   - NOT: 
+   - OR: if true == false or 1 == 1: returns true.
+   - AND: if is_raining and has_umbrella: returns true if both variables = true.
+   - NOT: if 1 != 1: returns false.
 
 
 Type down any class notes below this sentence:
