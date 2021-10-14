@@ -1,9 +1,9 @@
 import random
 def RPS():
     moves = ['rock','paper','scissors']
-    wmoves = ['paper','scissors','rock']
+    wmoves = [moves[1],moves[2],moves[0]]
     randChoice = random.choice(moves)
-    yamove = str(input('Your move is? (rock, paper, or scissors) = '))
+    yamove = str(input(f'Your move is? ({moves[0]}, {moves[1]}, or {moves[2]}) = '))
     print(f'Computer selected: {randChoice}')
     if yamove == wmoves[moves.index(randChoice)]:
         print('You won.')
