@@ -1,6 +1,9 @@
 import random
+moves = ['rock','paper','scissors']
+ver = 4
+print(f'ITS TIME FOR {moves[0].upper()} {moves[1].upper()} {moves[2].upper()}!!!!!!!')
+print(f'(RPS code ver {ver} by Ricardo Olazabal)')
 def RPS():
-    moves = ['rock','paper','scissors']
     wmoves = [moves[1],moves[2],moves[0]]
     randChoice = random.choice(moves)
     yamove = str(input(f'Your move is? ({moves[0]}, {moves[1]}, or {moves[2]}) = '))
