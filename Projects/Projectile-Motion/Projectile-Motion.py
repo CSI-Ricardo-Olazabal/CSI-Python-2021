@@ -1,7 +1,7 @@
 import math
 import os
 from pathlib import Path
-from hello import ExperimentalData
+from ExperimentalData import ExperimentalData
 import json
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
 g_ms2 = [3.7, 8.87, 9.81, 3.711, 24.79, 10.44, 8.69, 11.15]
