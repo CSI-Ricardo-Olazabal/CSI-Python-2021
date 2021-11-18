@@ -37,11 +37,11 @@
 
 What does JSON Stand for?
 
- - Answer:
+ - Answer: JSON stands for: JavaScript Object Notation
 
 Create an example of a JSON object with at least 4 values. It may represent anything but it must be original.
 
- - Answer:
+ - Answer: {"epicPercent": "100", "basedLevels": "95", "uniqueness": "88", "name": "Module6.md"}
 
 Type down any class notes below this sentence:
 
