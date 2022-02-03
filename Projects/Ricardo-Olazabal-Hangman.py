@@ -1,5 +1,5 @@
 import random
-word_list = ["string","JSON","boolean","python","fetch upstream","push","integer","array","compile error","print"]
+word_list = ["string","JSON","boolean","python","github","push","integer","array","compile error","print"]
 
 def get_word(word_list):
     word = random.choice(word_list)
